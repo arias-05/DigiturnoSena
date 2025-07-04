@@ -1,0 +1,149 @@
+/* Estilos para el header */
+header {
+  background-color: #39a900;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+/* Contenedor principal */
+.container-main {
+  background-color: #b5b5b557;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Añadido margen inferior */
+  min-height: calc(100vh - 180px); /* Ajusta según necesites */
+}
+
+.carousel-img-lg {
+  width: 800px;
+  height: auto;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/* Botón modal */
+.btn-custom {
+  background-color: #00324d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #00324dd8;
+}
+
+/* Botón eliminar y editar */
+.custom-icon-button {
+  background-color: #00324d;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.custom-icon-button:hover {
+  background-color: #00324dd8;
+}
+
+.custom-icon-button i {
+  color: white;
+}
+
+/* Formulario de inicio de sesión */
+.login-form {
+  display: none;
+  margin-top: 20px;
+}
+
+.login-link {
+  margin-bottom: 20px;
+}
+
+.login-form-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+/* Estilo base del span */
+#togglePassword1, #togglePassword2, #togglePassword3 {
+  display: inline;
+  color: #007bff; /* Color del texto */
+  cursor: pointer; /* Cambia el cursor a mano */
+  text-decoration: none; /* Elimina cualquier subrayado por defecto */
+  transition: text-decoration 0.3s; /* Transición suave para la decoración del texto */
+}
+
+/* Estilo cuando se pasa el cursor */
+#togglePassword1:hover, #togglePassword2:hover, #togglePassword3:hover {
+  text-decoration: underline; /* Aplica subrayado */
+}
+
+
+#miPerfilModal .modal-content {
+  color: black; /* Cambiar el color del texto a blanco */
+}
+/* Estilos para el footer */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #39a900;
+  padding: 20px;
+  margin-top: 20px; /* Añadido margen superior */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Barra de navegación */
+.nav-tabs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #00324dd8;
+}
+
+.invalid {
+  border: solid 1px red;
+  box-shadow: 0 0 10px red;
+}
+.error{
+  color: red;
+}
+
+
